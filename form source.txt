@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Restaurant's Webpage's Ordering Form</title>
+<style>
+body {background-color: violet;
+font-family: tahoma; font-color: white;  text-align: center; 
+}
+  
+input {
+    width: 400px;
+    padding: 0 20px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+h2 {font-style:italic; color:white;}
+
+form { display: inline-block; padding: 18px 36px; text-decoration: none; } 
+button { background-color: red }
+</style>
+</head>
+<body>
+<h1>LGK'S ORDERING FORM</h1>
+<h2>Kindly fill in this form please!</h2>
+<form>
+<input type="Text" placeholder="Full Name" name="Full Name"><br>
+<input type="Text" placeholder="Phone Number" name="Phone Number"><br>
+<input type="Text" placeholder="Address" name="Address"><br>
+<input type="Text" placeholder="Day(s)" name="Day"><br>
+<input type="Text" placeholder="Date (e.g 26-12-2020)" name="Date"><br>
+<label for= "food">food:<br></label> <select item=”food” id=”food”>
+				<option value=”Food”>Food</option>
+				<option value=”Starch”>Starch</option>
+				<option value=”Eba”>Eba</option>
+				<option value=”Amala”>Amala</option>
+</select><br>
+<label for= "Quantity">Quantity:<br></label> <select plate=”quantity” id=”quantity”>
+				<option value=”0”>0</option>
+				<option value=”1”>1</option>
+				<option value=”2”>2</option>
+				<option value=”3”>3</option>
+				<option value=”4”>4</option>
+				<option value=”5”>5</option>
+				<option value=”10”>10</option>
+				<option value=”15”>15</option>
+				<option value=”20”>20</option>
+				<option value=”30”>30</option>
+				<option value=”50”>50</option>
+				<option value=”100”>100</option>
+</select><br>
+<button>Submit!</button>
+<h4 id="message"><em>Thank you for getting in touch!</em></h4>
+</form>
+</body>
+</html>

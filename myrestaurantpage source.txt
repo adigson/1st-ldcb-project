@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Webpage</title>
+<style>
+#page-container { position: relative;  min-height: 100vh; }
+
+#content-wrap { padding-bottom: 2.5rem; min-height: 100vh; }
+
+#footer { position: absolute; bottom: 0; width: 100%; height: 2.5rem; }
+
+
+
+body {background-color: teal;
+font-family: tahoma;}
+a {color:white;}
+span {font-style:italic;}
+header, footer {background-color:white; color:blue; text-align:center; font-style:italic;}
+h2 {color:white; background-color:grey;}
+h3 { color:lightblue; text-align:center; background-color:grey; }
+table { font-size: 18px; border-collapse: collapse; margin-left:auto; margin-right:auto; }
+th { color: white; } 
+table, th, td { border: 2px solid white; text-align: center; padding: 15px; }
+@media print {table {display: none;}}
+@media (min-width: 500px) { h1::before
+{ content: "Welcome to My Restaurant Web Page!";  color: gold; text-align:center;} }
+@media (max-width: 499px)
+{ h1::before { content: "Welcome!"; } }
+
+a:hover {
+  background-color: yellow; color: purple;
+}
+
+
+p {color: white; background-color: harsh; font-style: italic, bold; text-align:center;}
+
+img {border-radius: 12px;display: block;margin-left: auto;margin-right: auto;width: 30%;}
+
+
+
+</style>
+</head>
+<body>
+<div id="page-container">
+   <div id="content-wrap">
+
+ <h1></h1>
+<header>The Content of my Restaurant World!</header>
+
+
+<h2>LAZZAATUL-AAKILEEN GOLDEN KITCHEN (LGK)</h2>
+<p><em>Having made it here now<br>
+Your next tour here is assured<br>
+You'll be coming then for more<br>
+Of the bites of our kitchen</em><br>
+<strong>The experience of which we promise<br>
+Will remain <span style= "color: gold; background-color: blue"> golden</span> all years round!</strong></p>
+<h2>ABOUT LGK:</h2>
+<p>LGK - <em>Lazzaatul-Aakileen Golden Kitchen</em> is a special kitchen-home that comes into being
+in the heart of the <strong>Oyee city - Warri</strong> in July, 2020 to cater for the traditional kitchen services
+and needs of all and sundry within and around her locale.</p>
+<p>Besides the presence of myriads of bachelors and spinsters as a result of Industrial Trainings (IT's) and the
+availability of industries; many married couples here, prefer visiting eateries to personally cooking their meals.</p>
+<p>LGK sprang up as an alternative not only to safe the precious time that her customers would be using in cooking
+their meals but also to make the meals sumptuous enough for their liking. AT LGK, they are guaranteed with the unique
+tastes of their local dishes as at when needed and in the quantity required!</p>
+<h2>IMAGES OF OUR MENU ITEMS:</h2>
+<h3>You have below,<br>
+some feedings for your eyes;<br>
+prior to your actual ordering<br>
+to really have a taste of our comfortable meals!</h3>
+
+<div class="row">
+  <div class="column">  
+<span style = "background-color: white;"><br>Owo Soup
+<img src="images/images_004.jpg" alt="Starch with Owo Soup" height="150px" width="200px class="center"></span></div> <br>
+<div class="row">
+  <div class="column">  
+<span style = "background-color: gold;"><br>Okra Soup
+<img src="images/images_005.jpg" height="150px" width="200px" class="center" alt="Eba with Assorted Okra Soup" height="150px" width="200px class="center"></span></div> <br>
+<div class="row">
+  <div class="column">  
+<span style = "background-color: blue; color: white;"><br>Egusi Soup 
+<img src="images/images_010.jpg" alt="Amala with Dried Fished Egusi Soup" height="150px" width="200px class="center"></span></div></div> 
+
+<h2 id="menu">OUR MENU ITEMS</h2>
+<div id="menu-table">
+<table>
+<tr>
+<th>Food item</th>
+<th>Price per plate (=N=)</th>
+<th>Food Status</th>
+</tr>
+<tr>
+<td>Starch with Owo Soup</td>
+<td>300</td>
+<td>Ready & Hot</td>
+</tr>
+<tr>
+<td>Eba with Assorted Okra Soup</td>
+<td>200</td>
+<td>Ready</td>
+</tr>
+<tr>
+<td>Amala with Dried Fished Egusi Soup</td>
+<td>250</td>
+<td>Prepared on Request</td>
+</tr>
+</table>
+</div>
+<h2>MAKING AN ORDER...?</h2>
+<div id="form">Here is an Ordering-Form<a href="form.html" target="_blank">  Click me!!!</a></form> </div><br>
+
+<h2>OWO SOUP IN THE MAKING: NOT INTENDED TO SALIVATE YOU BUT TO ELEVATE YOUR BELIEF IN US!</h2>
+<div id="video">Here is a Clip on How our Traditional Owo Soup is Made!!!</div><br>
+<iframe width="661" height="372" src="https://www.youtube.com/embed/RdM9_8VZEXE"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<h2>A RELAXATION-FILLED AUDIO:</h2>
+<div id="audio">After your patronage...you shouldn't find it hard to expect the similitude of the coolness of the likes of this thunderstorm.</div>
+<p>To play it; click; and be lulled to sleep that's full of lovely dreams of realities!!!</p>
+<audio id="thunderstrike" controls><source src="Rain-thunder-sounds.mp3"</audio><br>
+</div>
+<footer id="footer">...with<span style="color:red; height:14px;"> us</span>, you have a bet to healthy and sumptuous meals always!
+<h5><span style="float:right;">Meet The <a href="author.html" target="_blank">  LGK's Project Manager</span></a></h5></footer>
+</div>
+</body>
+</html>
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
